@@ -104,7 +104,7 @@ async function sent_message_by_pushplus(message) {
     if (!PUSHPLUS_TOKEN) {
         return;
     }
-    console.log("=> 发送pushplus: \n", message);
+    console.log("=> 发送pushplus: \n" + message);
     let timer = new Date()
     let data = {
         token: PUSHPLUS_TOKEN,
